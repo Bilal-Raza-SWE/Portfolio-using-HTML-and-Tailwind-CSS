@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bilal's Portfolio</title>
+  <link href="styles.css" rel="stylesheet">  <!-- Link to the compiled CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+  <div class="mx-56 my-4">
+    <div class="container mx-auto p-4">
+      <!-- Header -->
+      <header class="flex justify-between items-center mb-8">
+        <div class="text-xl font-bold text-yellow-500">MBR</div>
+        <nav>
+          <a href="#Home" class="mx-2 hover:text-yellow-500">Home</a>
+          <a href="#Gallery" class="mx-2 hover:text-yellow-500">Gallery</a>
+          <a href="#Goals" class="mx-2 hover:text-yellow-500">Goals</a>
+          <a href="#Projects" class="mx-2 hover:text-yellow-500">Projects</a>
+          <a href="#Skills" class="mx-2 hover:text-yellow-500">Skills</a>
+          <a href="contact.html" class="mx-2 hover:text-yellow-500">Contact</a>
+        </nav>
+      </header>
+
+      <!-- Main content -->
+      <div id="Home" class="p-6 h-[500px] grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Left column -->
+        <div
+          class="p-12 relative -ml-6 col-span-2 shadow-lg bg-gradient-to-br from-yellow-100 to-green-100 rounded-3xl">
+          <h1 class=" text-4xl font-bold mb-4">Hi, I'm Muhammad Bilal Raza, a Web Designer With 2 years of experience.
+          </h1>
+          <p class="my-10">Passionate about turning innovative designs into fully functional websites, I focus on
+            delivering high-quality, user-centric web solutions that ensure both performance and aesthetic appeal.</p>
+          <div class="absolute bottom-0 mb-10 flex items-center space-x-4">
+            <button class="bg-black text-white px-6 py-2 rounded-full">
+              <a href="contact.html">Contact me</a></button>
+            <a href="#" class="p-2"><img src="Images/linkedin.png" alt="LinkedIn" class="w-6 h-6" /></a>
+            <a href="#" class="p-2"><img src="Images/github.png" alt="GitHub" class="w-6 h-6" /></a>
+            <a href="#" class="p-2"><img src="Images/twitter.png" alt="Twitter" class="w-6 h-6" /></a>
+            <a href="#" class="p-2"><img src="Images/email.png" alt="Email" class="w-6 h-6" /></a>
+          </div>
+        </div>
+        <!-- Right column -->
+        <div class="col-span-1 bg-yellow-300 rounded-3xl overflow-hidden">
+          <img src="Images/bilal.png" alt="Bilal's photo"
+            class="w-full h-full object-cover duration-500 ease-in-out transform hover:scale-105" />
+        </div>
+      </div>
+
+
+
+
+      <!-- Gallery -->
+      <div id="Gallery" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
+        <h1 class="col-span-3 text-center text-3xl font-extrabold">Gallery</h1>
+        <!-- Coding(skill) -->
+        <div class="bg-white rounded-3xl p-6 relative group overflow-hidden">
+          <h3 class="text-xl font-bold mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500">Coding
+          </h3>
+          <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-1000">
+            Writing efficient, scalable code for dynamic websites. </p>
+          <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-500 font-semibold">
+            Category: Skill
+          </p>
+          <div class="absolute inset-0 flex justify-center items-center">
+            <img src="Images/coding.jpg" alt="Coding"
+              class="w-full h-full object-cover transition-transform duration-500 transform group-hover:scale-110 group-hover:blur-md" />
+          </div>
+          <div
+            class="absolute bottom-4 left-4 right-4 bg-white bg-opacity-70 p-4 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-700">
+            <h3 class="text-lg font-bold">Coding</h3>
+            <p class="text-sm">Writing efficient, scalable code for dynamic websites.</p>
+            <p class="text-xs font-semibold text-gray-700">Category: Skill</p>
+          </div>
+        </div>
+
+        <!-- Gaming (Interest) -->
+        <div class="bg-white rounded-3xl p-6 relative group overflow-hidden">
+          <h3 class="text-xl font-bold mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500">Gaming
+          </h3>
+          <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-1000">
+            Enjoying immersive story-driven games. </p>
+          <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-500 font-semibold">
+            Category: Interest
+          </p>
+          <div class="absolute inset-0 flex justify-center items-center">
+            <img src="Images/gaming.avif" alt="Gaming"
+              class="w-full h-full object-cover transition-transform duration-500 transform group-hover:scale-110 group-hover:blur-md" />
+          </div>
+          <div
+            class="absolute bottom-4 left-4 right-4 bg-white bg-opacity-70 p-4 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-700">
+            <h3 class="text-lg font-bold">Gaming</h3>
+            <p class="text-sm">Enjoying immersive story-driven games.</p>
+            <p class="text-xs font-semibold text-gray-700">Category: Interest</p>
+          </div>
+        </div>
+
+
+        <!-- reading(Hobby)-->
+        <div class="bg-white rounded-3xl p-6 relative group overflow-hidden">
+          <h3 class="text-xl font-bold mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500">Reading
+          </h3>
+          <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-1000">
+            Exploring tech blogs and development books.
+          </p>
+          <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-500 font-semibold">
+            Category: Hobby
+          </p>
+          <div class="absolute inset-0 flex justify-center items-center">
+            <img src="Images/reading.jpg" alt="Reading-Hobby"
+              class="w-full h-full object-cover transition-transform duration-500 transform group-hover:scale-110 group-hover:blur-md" />
+          </div>
+          <div
+            class="absolute bottom-4 left-4 right-4 bg-white bg-opacity-70 p-4 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-700">
+            <h3 class="text-lg font-bold">Reading</h3>
+            <p class="text-sm">Exploring tech blogs and development books.</p>
+            <p class="text-xs font-semibold text-gray-700">Category: Hobby</p>
+          </div>
+        </div>
+
+        <!-- Photography(Hobby) -->
+        <div class="bg-white rounded-3xl p-6 relative group overflow-hidden">
+          <h3 class="text-xl font-bold mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+            Photography</h3>
+          <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-1000">
+            Capturing moments and stunning landscapes.</p>
+          <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-500 font-semibold">
+            Category: Hobby
+          </p>
+          <div class="absolute inset-0 flex justify-center items-center">
+            <img src="Images/photography.avif" alt="Reading-Hobby"
+              class="w-full h-full object-cover transition-transform duration-500 transform group-hover:scale-110 group-hover:blur-md" />
+          </div>
+          <div
+            class="absolute bottom-4 left-4 right-4 bg-white bg-opacity-70 p-4 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-700">
+            <h3 class="text-lg font-bold">Photography</h3>
+            <p class="text-sm">Capturing moments and stunning landscapes.</p>
+            <p class="text-xs font-semibold text-gray-700">Category: Hobby</p>
+          </div>
+        </div>
+
+
+        <!-- Ui/Ux Design (Interest) -->
+        <div class="bg-white rounded-3xl p-6 relative group overflow-hidden">
+          <h3 class="text-xl font-bold mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500">UI/UX
+            Design</h3>
+          <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-1000">
+            Creating user-friendly and intuitive interfaces. </p>
+          <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-500 font-semibold">
+            Category: Interest
+          </p>
+          <div class="absolute inset-0 flex justify-center items-center">
+            <img src="Images/Ui Ux design.avif" alt="Reading-Hobby"
+              class="w-full h-full object-cover transition-transform duration-500 transform group-hover:scale-110 group-hover:blur-md" />
+          </div>
+          <div
+            class="absolute bottom-4 left-4 right-4 bg-white bg-opacity-70 p-4 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-700">
+            <h3 class="text-lg font-bold">UI/UX Design</h3>
+            <p class="text-sm">Creating user-friendly and intuitive interfaces.</p>
+            <p class="text-xs font-semibold text-gray-700">Category: Interest</p>
+          </div>
+        </div>
+
+        <!-- problem solving -->
+        <div class="bg-white rounded-3xl p-6 relative group overflow-hidden">
+          <h3 class="text-xl font-bold mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500">Problem
+            Solving</h3>
+          <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-1000">
+            Tackling complex challenges with innovative solutions. </p>
+          <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-500 font-semibold">
+            Category: Skill
+          </p>
+          <div class="absolute inset-0 flex justify-center items-center">
+            <img src="Images/problem solving.jpg" alt="Reading-Hobby"
+              class="w-full h-full object-cover transition-transform duration-500 transform group-hover:scale-110 group-hover:blur-md" />
+          </div>
+          <div
+            class="absolute bottom-4 left-4 right-4 bg-white bg-opacity-70 p-4 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-700">
+            <h3 class="text-lg font-bold">Problem Solving</h3>
+            <p class="text-sm">Tackling complex challenges with innovative solutions.</p>
+            <p class="text-xs font-semibold text-gray-700">Category: Skill</p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <!-- Career Goals -->
+      <div id="Goals" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
+        <h1 class="col-span-3 text-center text-3xl font-extrabold">Career and Goals</h1>
+        <!-- Enhancing Coding Proficiency(Short Term Goal) -->
+        <div class="bg-white rounded-3xl p-6 relative group overflow-hidden">
+          <h3 class="text-xl font-bold mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500">Enhancing
+            Coding Proficiency</h3>
+          <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-1000">
+            Continually improving coding skills by learning new languages, frameworks, and best practices. </p>
+          <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-500 font-semibold">
+            Category: Short Term Goal
+          </p>
+          <div class="absolute inset-0 flex justify-center items-center">
+            <img src="Images/improve coding.jpg" alt="Reading-Hobby"
+              class="w-full h-full object-cover transition-transform duration-500 transform group-hover:scale-110 group-hover:blur-md" />
+          </div>
+          <div
+            class="absolute bottom-4 left-4 right-4 bg-white bg-opacity-70 p-4 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-700">
+            <h3 class="text-lg font-bold">Enhancing Coding Proficiency</h3>
+            <p class="text-sm">Continually improving coding skills by learning new languages, frameworks, and best
+              practices.</p>
+            <p class="text-xs font-semibold text-gray-700">Category: Short Term Goal</p>
+          </div>
+        </div>
+
+        <!-- Achieving Full-Stack Mastery -->
+        <div class="bg-white rounded-3xl p-6 relative group overflow-hidden">
+          <h3 class="text-xl font-bold mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500">Achieving
+            Full-Stack Mastery
+          </h3>
+          <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-1000">
+            Mastering both frontend and backend development to work more independently on complete web applications.
+          </p>
+          <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-500 font-semibold">
+            Category: Short Term Goal
+          </p>
+          <div class="absolute inset-0 flex justify-center items-center">
+            <img src="Images/full stack.jpg" alt="Reading-Hobby"
+              class="w-full h-full object-cover transition-transform duration-500 transform group-hover:scale-110 group-hover:blur-md" />
+          </div>
+          <div
+            class="absolute bottom-4 left-4 right-4 bg-white bg-opacity-70 p-4 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-700">
+            <h3 class="text-lg font-bold">Achieving Full-Stack Mastery</h3>
+            <p class="text-sm">Mastering both frontend and backend development to work more independently on complete
+              web applications.</p>
+            <p class="text-xs font-semibold text-gray-700">Category: Short Term Goal</p>
+          </div>
+        </div>
+
+        <!-- Automating Development Tasks -->
+        <div class="bg-white rounded-3xl p-6 relative group overflow-hidden">
+          <h3 class="text-xl font-bold mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+            Automating Development Tasks
+          </h3>
+          <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-1000">
+            Learning automation tools and techniques to optimize repetitive tasks and boost productivity. </p>
+          <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-500 font-semibold">
+            Category: Short Term Goal
+          </p>
+          <div class="absolute inset-0 flex justify-center items-center">
+            <img src="Images/automation.jpg" alt="Reading-Hobby"
+              class="w-full h-full object-cover transition-transform duration-500 transform group-hover:scale-110 group-hover:blur-md" />
+          </div>
+          <div
+            class="absolute bottom-4 left-4 right-4 bg-white bg-opacity-70 p-4 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-700">
+            <h3 class="text-lg font-bold">Automating Development Tasks</h3>
+            <p class="text-sm">Learning automation tools and techniques to optimize repetitive tasks and boost
+              productivity.</p>
+            <p class="text-xs font-semibold text-gray-700">Category: Short Term Goal</p>
+          </div>
+        </div>
+
+        <!-- Scaling Web Applications -->
+        <div class="bg-white rounded-3xl p-6 relative group overflow-hidden">
+          <h3 class="text-xl font-bold mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500">Enhancing
+            Coding Proficiency
+          </h3>
+          <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-1000">
+            Gaining expertise in scaling applications, handling higher traffic loads, and optimizing performance. </p>
+          <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-500 font-semibold">
+            Category: Long Term Goal
+          </p>
+          <div class="absolute inset-0 flex justify-center items-center">
+            <img src="Images/web scaling.jpg" alt="Reading-Hobby"
+              class="w-full h-full object-cover transition-transform duration-500 transform group-hover:scale-110 group-hover:blur-md" />
+          </div>
+          <div
+            class="absolute bottom-4 left-4 right-4 bg-white bg-opacity-70 p-4 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-700">
+            <h3 class="text-lg font-bold">Scaling Web Applications</h3>
+            <p class="text-sm">Gaining expertise in scaling applications, handling higher traffic loads, and optimizing
+              performance.</p>
+            <p class="text-xs font-semibold text-gray-700">Category: Long Term Goal</p>
+          </div>
+        </div>
+
+        <!-- Developing Soft Skills -->
+        <div class="bg-white rounded-3xl p-6 relative group overflow-hidden">
+          <h3 class="text-xl font-bold mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+            Developing Soft Skills
+          </h3>
+          <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-1000">
+            Improving communication, teamwork, and problem-solving abilities for better collaboration and leadership.
+          </p>
+          <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-500 font-semibold">
+            Category: Short Long Goal
+          </p>
+          <div class="absolute inset-0 flex justify-center items-center">
+            <img src="Images/soft.jpg" alt="Reading-Hobby"
+              class="w-full h-full object-cover transition-transform duration-500 transform group-hover:scale-110 group-hover:blur-md" />
+          </div>
+          <div
+            class="absolute bottom-4 left-4 right-4 bg-white bg-opacity-70 p-4 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-700">
+            <h3 class="text-lg font-bold">Developing Soft Skills</h3>
+            <p class="text-sm">Improving communication, teamwork, and problem-solving abilities for better collaboration
+              and leadership.</p>
+            <p class="text-xs font-semibold text-gray-700">Category: Long Term Goal</p>
+          </div>
+        </div>
+
+        <!-- Building a Professional Network -->
+        <div class="bg-white rounded-3xl p-6 relative group overflow-hidden">
+          <h3 class="text-xl font-bold mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500">Building
+            a Professional Network
+          </h3>
+          <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-1000">
+            Connecting with industry professionals and joining communities to stay updated and find opportunities. </p>
+          <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-500 font-semibold">
+            Category: Long Term Goal
+          </p>
+          <div class="absolute inset-0 flex justify-center items-center">
+            <img src="Images/professional network.jpg" alt="Reading-Hobby"
+              class="w-full h-full object-cover transition-transform duration-500 transform group-hover:scale-110 group-hover:blur-md" />
+          </div>
+          <div
+            class="absolute bottom-4 left-4 right-4 bg-white bg-opacity-70 p-4 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-700">
+            <h3 class="text-lg font-bold">Building a Professional Network</h3>
+            <p class="text-sm">Connecting with industry professionals and joining communities to stay updated and find
+              opportunities.</p>
+            <p class="text-xs font-semibold text-gray-700">Category: Long Term Goal</p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- Projects  -->
+      <div id="Projects" class="grid grid-rows-3 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Projects Heading Positioned at the Bottom -->
+        <div class="col-span-3 relative h-56"> <!-- Adjust h-24 to your desired height -->
+          <div class="absolute bottom-4 left-0 right-0 text-center">
+            <h1 class="text-3xl font-extrabold">Projects</h1>
+          </div>
+        </div>
+
+        <!-- Battleship Game -->
+        <div class="bg-white rounded-3xl p-6 relative group overflow-hidden">
+          <h3 class="text-xl font-bold mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+            Battleship Game
+          </h3>
+          <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-1000">
+            A fun and interactive battleship game developed using C++ and the GLUT glue library, allowing players to
+            compete against each other in strategic gameplay.
+          </p>
+          <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-500 font-semibold">
+            Languages: C++
+          </p>
+          <div class="absolute inset-0 flex justify-center items-center">
+            <img src="Images/battleship.jfif" alt="Reading-Hobby"
+              class="w-full h-full object-cover transition-transform duration-500 transform group-hover:scale-110 group-hover:blur-md" />
+          </div>
+          <div
+            class="absolute bottom-4 left-4 right-4 bg-white bg-opacity-70 p-4 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-700">
+            <h3 class="text-lg font-bold">Battleship Game</h3>
+            <p class="text-sm">A fun and interactive battleship game developed using C++ and the GLUT glue library,
+              allowing players to compete against each other in strategic gameplay.</p>
+            <hr class="border-black border-1 my-2">
+            <p class="text-xs font-semibold text-gray-700">Languages: C++</p>
+          </div>
+        </div>
+
+        <!-- Chess Game -->
+        <div class="bg-white rounded-3xl p-6 relative group overflow-hidden">
+          <h3 class="text-xl font-bold mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+            Chess Game
+          </h3>
+          <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-1000">
+            A classic chess game implemented in C++, providing a digital platform for players to enjoy and enhance their
+            strategic skills.
+          </p>
+          <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-500 font-semibold">
+            Languages: C++
+          </p>
+          <div class="absolute inset-0 flex justify-center items-center">
+            <img src="Images/chess.jfif" alt="Reading-Hobby"
+              class="w-full h-full object-cover transition-transform duration-500 transform group-hover:scale-110 group-hover:blur-md" />
+          </div>
+          <div
+            class="absolute bottom-4 left-4 right-4 bg-white bg-opacity-70 p-4 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-700">
+            <h3 class="text-lg font-bold">Chess Game</h3>
+            <p class="text-sm">A classic chess game implemented in C++, providing a digital platform for players to
+              enjoy and enhance their strategic skills.</p>
+            <hr class="border-black border-1 my-2">
+            <p class="text-xs font-semibold text-gray-700">Languages: C++</p>
+          </div>
+        </div>
+
+        <!-- Responsive Car Rental System -->
+        <div class="bg-white rounded-3xl p-6 relative group overflow-hidden">
+          <h3 class="text-xl font-bold mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+            Responsive Car Rental System
+          </h3>
+          <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-1000">
+            A comprehensive car rental system designed to be fully responsive, utilizing HTML, CSS, and JavaScript for
+            an engaging user experience.
+          </p>
+          <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-500 font-semibold">
+            Languages: HTML, CSS, JavaScript
+
+          </p>
+          <div class="absolute inset-0 flex justify-center items-center">
+            <img src="Images/car rental.jfif" alt="Reading-Hobby"
+              class="w-full h-full object-cover transition-transform duration-500 transform group-hover:scale-110 group-hover:blur-md" />
+          </div>
+          <div
+            class="absolute bottom-4 left-4 right-4 bg-white bg-opacity-70 p-4 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-700">
+            <h3 class="text-lg font-bold">Responsive Car Rental System</h3>
+            <p class="text-sm">A comprehensive car rental system designed to be fully responsive, utilizing HTML, CSS,
+              and JavaScript for an engaging user experience.</p>
+            <hr class="border-black border-1 my-2">
+            <p class="text-xs font-semibold text-gray-700">Languages: HTML, CSS, JavaScript
+            </p>
+          </div>
+        </div>
+
+        <!-- Social Interaction System -->
+        <div class="bg-white rounded-3xl p-6 relative group overflow-hidden">
+          <h3 class="text-xl font-bold mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+            Social Interaction System
+          </h3>
+          <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-1000">
+            A Facebook-like social interaction system built with C++ and OOP concepts, enabling users to connect, share,
+            and communicate in a virtual environment.
+          </p>
+          <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-500 font-semibold">
+            Languages: C++
+          </p>
+          <div class="absolute inset-0 flex justify-center items-center">
+            <img src="Images/social interaction.jfif" alt="Reading-Hobby"
+              class="w-full h-full object-cover transition-transform duration-500 transform group-hover:scale-110 group-hover:blur-md" />
+          </div>
+          <div
+            class="absolute bottom-4 left-4 right-4 bg-white bg-opacity-70 p-4 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-700">
+            <h3 class="text-lg font-bold">Social Interaction System</h3>
+            <p class="text-sm">A Facebook-like social interaction system built with C++ and OOP concepts, enabling users
+              to connect, share, and communicate in a virtual environment.</p>
+            <hr class="border-black border-1 my-2">
+            <p class="text-xs font-semibold text-gray-700">Languages: C++</p>
+          </div>
+        </div>
+
+        <!-- Car Racing Game -->
+        <div class="bg-white rounded-3xl p-6 relative group overflow-hidden">
+          <h3 class="text-xl font-bold mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+            Car Racing Game
+          </h3>
+          <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-1000">
+            An exciting car racing game created using graphics programming in C++, providing thrilling gameplay with
+            realistic visuals.
+          </p>
+          <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-500 font-semibold">
+            Languages: C++
+          </p>
+          <div class="absolute inset-0 flex justify-center items-center">
+            <img src="Images/car racing.jfif" alt="Reading-Hobby"
+              class="w-full h-full object-cover transition-transform duration-500 transform group-hover:scale-110 group-hover:blur-md" />
+          </div>
+          <div
+            class="absolute bottom-4 left-4 right-4 bg-white bg-opacity-70 p-4 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-700">
+            <h3 class="text-lg font-bold">Car Racing Game</h3>
+            <p class="text-sm">An exciting car racing game created using graphics programming in C++, providing
+              thrilling gameplay with realistic visuals.</p>
+            <hr class="border-black border-1 my-2">
+            <p class="text-xs font-semibold text-gray-700">Languages: C++</p>
+          </div>
+        </div>
+
+        <!-- Property Management System -->
+        <div class="bg-white rounded-3xl p-6 relative group overflow-hidden">
+          <h3 class="text-xl font-bold mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+            Property Management System
+          </h3>
+          <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-1000">
+            A robust property management system developed using Java and a database, streamlining the management of
+            property-related tasks and information.
+
+          </p>
+          <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-500 font-semibold">
+            Languages: Java, Database
+          </p>
+          <div class="absolute inset-0 flex justify-center items-center">
+            <img src="Images/pms.jfif" alt="Reading-Hobby"
+              class="w-full h-full object-cover transition-transform duration-500 transform group-hover:scale-110 group-hover:blur-md" />
+          </div>
+          <div
+            class="absolute bottom-4 left-4 right-4 bg-white bg-opacity-70 p-4 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-700">
+            <h3 class="text-lg font-bold">Property Management System</h3>
+            <p class="text-sm">A robust property management system developed using Java and a database, streamlining the
+              management of property-related tasks and information.</p>
+            <hr class="border-black border-1 my-2">
+            <p class="text-xs font-semibold text-gray-700">Languages: Java, Database</p>
+          </div>
+        </div>
+
+        <!-- Multi-player Tic Tac Toe Game -->
+        <div class="bg-white rounded-3xl p-6 relative group overflow-hidden">
+          <h3 class="text-xl font-bold mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+            Multi-player Tic Tac Toe Game
+          </h3>
+          <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-1000">
+            A fully responsive multi-player Tic Tac Toe game developed using HTML, CSS, and JavaScript, allowing players
+            to compete against friends in real-time.
+          </p>
+          <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-500 font-semibold">
+            Languages: HTML, CSS, JavaScript
+          </p>
+          <div class="absolute inset-0 flex justify-center items-center">
+            <img src="Images/tic tac toe.jfif" alt="Tic Tac Toe Game"
+              class="w-full h-full object-cover transition-transform duration-500 transform group-hover:scale-110 group-hover:blur-md" />
+          </div>
+          <div
+            class="absolute bottom-4 left-4 right-4 bg-white bg-opacity-70 p-4 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-700">
+            <h3 class="text-lg font-bold">Multi-player Tic Tac Toe Game</h3>
+            <p class="text-sm">A fully responsive multi-player Tic Tac Toe game developed using HTML, CSS, and
+              JavaScript, allowing players to compete against friends in real-time.</p>
+            <hr class="border-black border-1 my-2">
+            <p class="text-xs font-semibold text-gray-700">Languages: HTML, CSS, JavaScript</p>
+          </div>
+        </div>
+
+
+        <!-- Amazon Clone -->
+        <div class="bg-white rounded-3xl p-6 relative group overflow-hidden">
+          <h3 class="text-xl font-bold mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+            Amazon Clone
+          </h3>
+          <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-1000">
+            An Amazon clone built using React and Node, replicating essential features of an e-commerce platform for a seamless shopping experience.
+          </p>
+          <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-500 font-semibold">
+            Languages: React, Node
+          </p>
+          <div class="absolute inset-0 flex justify-center items-center">
+            <img src="Images/amazon.jfif" alt="Tic Tac Toe Game"
+              class="w-full h-full object-cover transition-transform duration-500 transform group-hover:scale-110 group-hover:blur-md" />
+          </div>
+          <div
+            class="absolute bottom-4 left-4 right-4 bg-white bg-opacity-70 p-4 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-700">
+            <h3 class="text-lg font-bold">Amazon Clone</h3>
+            <p class="text-sm">An Amazon clone built using React and Node, replicating essential features of an e-commerce platform for a seamless shopping experience.</p>
+            <hr class="border-black border-1 my-2">
+            <p class="text-xs font-semibold text-gray-700">Languages: React, Node</p>
+          </div>
+        </div>
+
+
+        <!-- Cafe Management System
+ -->
+<div class="bg-white rounded-3xl p-6 relative group overflow-hidden">
+  <h3 class="text-xl font-bold mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+    Cafe Management System
+  </h3>
+  <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-1000">
+    A comprehensive cafe management system developed using C# and SQL, designed to streamline operations and enhance customer service.
+  </p>
+  <p class="opacity-0 group-hover:opacity-100 transition-opacity duration-500 font-semibold">
+    Languages: C#, SQL
+  </p>
+  <div class="absolute inset-0 flex justify-center items-center">
+    <img src="Images/cafe management sys.jfif" alt="Tic Tac Toe Game"
+      class="w-full h-full object-cover transition-transform duration-500 transform group-hover:scale-110 group-hover:blur-md" />
+  </div>
+  <div
+    class="absolute bottom-4 left-4 right-4 bg-white bg-opacity-70 p-4 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-700">
+    <h3 class="text-lg font-bold">Cafe Management System</h3>
+    <p class="text-sm">A comprehensive cafe management system developed using C# and SQL, designed to streamline operations and enhance customer service.</p>
+    <hr class="border-black border-1 my-2">
+    <p class="text-xs font-semibold text-gray-700"></p>
+  </div>
+</div>
+
+      </div>
+
+
+
+      <!-- Skills and Interests  -->
+      <div id="Skills" class="mt-16">
+        <h2 class="text-3xl font-extrabold text-center mb-8">Skills & Interests</h2>
+
+        <!-- Skills Section -->
+        <div class="mb-12">
+          <h3 class="text-2xl font-bold mb-4">Skills</h3>
+          <div class="space-y-4">
+            <div>
+              <span class="font-semibold">JavaScript</span>
+              <div class="relative bg-gray-200 rounded-full h-2 group">
+                <div class="bg-blue-500 h-2 rounded-full w-[80%] group-hover:bg-opacity-70"></div>
+                <span
+                  class="absolute left-1/2 transform -translate-x-1/2 -translate-y-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">80%</span>
+              </div>
+            </div>
+            <div>
+              <span class="font-semibold">C++</span>
+              <div class="relative bg-gray-200 rounded-full h-2 group">
+                <div class="bg-green-500 h-2 rounded-full w-[90%] group-hover:bg-opacity-70"></div>
+                <span
+                  class="absolute left-1/2 transform -translate-x-1/2 -translate-y-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">90%</span>
+              </div>
+            </div>
+            <div>
+              <span class="font-semibold">HTML</span>
+              <div class="relative bg-gray-200 rounded-full h-2 group">
+                <div class="bg-red-500 h-2 rounded-full w-[100%] group-hover:bg-opacity-70"></div>
+                <span
+                  class="absolute left-1/2 transform -translate-x-1/2 -translate-y-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">100%</span>
+              </div>
+            </div>
+            <div>
+              <span class="font-semibold">CSS</span>
+              <div class="relative bg-gray-200 rounded-full h-2 group">
+                <div class="bg-purple-500 h-2 rounded-full w-[75%] group-hover:bg-opacity-70"></div>
+                <span
+                  class="absolute left-1/2 transform -translate-x-1/2 -translate-y-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">75%</span>
+              </div>
+            </div>
+            <div>
+              <span class="font-semibold">Tailwind CSS</span>
+              <div class="relative bg-gray-200 rounded-full h-2 group">
+                <div class="bg-teal-500 h-2 rounded-full w-[60%] group-hover:bg-opacity-70"></div>
+                <span
+                  class="absolute left-1/2 transform -translate-x-1/2 -translate-y-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">60%</span>
+              </div>
+            </div>
+            <div>
+              <span class="font-semibold">C#</span>
+              <div class="relative bg-gray-200 rounded-full h-2 group"></div>
+              <div class="bg-orange-500 h-2 rounded-full w-[40%] group-hover:bg-opacity-70"></div>
+              <span
+                class="absolute left-1/2 transform -translate-x-1/2 -translate-y-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">40%</span>
+            </div>
+          </div>
+          <div>
+            <span class="font-semibold">Python</span>
+            <div class="relative bg-gray-200 rounded-full h-2 group">
+              <div class="bg-yellow-500 h-2 rounded-full w-[45%] group-hover:bg-opacity-70"></div>
+              <span
+                class="absolute left-1/2 transform -translate-x-1/2 -translate-y-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">45%</span>
+            </div>
+          </div>
+          <div>
+            <span class="font-semibold">React</span>
+            <div class="relative bg-gray-200 rounded-full h-2 group">
+              <div class="bg-yellow-500 h-2 rounded-full w-[50%] group-hover:bg-opacity-70"></div>
+              <span
+                class="absolute left-1/2 transform -translate-x-1/2 -translate-y-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">50%</span>
+            </div>
+          </div>
+          <div>
+            <span class="font-semibold">Node.js</span>
+            <div class="relative bg-gray-200 rounded-full h-2 group">
+              <div class="bg-red-500 h-2 rounded-full w-[60%] group-hover:bg-opacity-70"></div>
+              <span
+                class="absolute left-1/2 transform -translate-x-1/2 -translate-y-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">60%</span>
+            </div>
+          </div>
+          <div>
+            <span class="font-semibold">Java</span>
+            <div class="relative bg-gray-200 rounded-full h-2 group">
+              <div class="bg-purple-500 h-2 rounded-full w-[70%] group-hover:bg-opacity-70"></div>
+              <span
+                class="absolute left-1/2 transform -translate-x-1/2 -translate-y-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">70%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Interests Section -->
+      <div>
+        <h3 class="text-2xl font-bold mb-4">Interests</h3>
+        <p class="text-gray-700">
+          I have a passion for exploring new technologies, reading about software development trends, and engaging in
+          outdoor activities like hiking and cycling. I also enjoy collaborating with others on tech projects and
+          participating in hackathons to enhance my skills.
+        </p>
+      </div>
+    </div>
+
+
+
+    <!-- Contact section -->
+    <div id="Contact" class="mt-16 bg-gradient-to-br from-white to-yellow-100 rounded-3xl p-8">
+      <h2 class="text-3xl font-bold mb-4">Want to work together?</h2>
+      <p class="mb-4">Feel free to reach out for collaborations or just a friendly hello</p>
+      <p class="mb-8">m.bilalraza420@gmail.com</p>
+      <div class="flex items-center space-x-4">
+        <button class="bg-black text-white px-6 py-2 rounded-full">
+          <a href="contact.html">Contact me</a>
+        </button>
+        <a href="#" class="p-2"><img src="Images/linkedin.png" alt="LinkedIn" class="w-6 h-6" /></a>
+        <a href="#" class="p-2"><img src="Images/github.png" alt="GitHub" class="w-6 h-6" /></a>
+        <a href="#" class="p-2"><img src="Images/twitter.png" alt="Twitter" class="w-6 h-6" /></a>
+        <a href="#" class="p-2"><img src="Images/email.png" alt="Email" class="w-6 h-6" /></a>
+      </div>
+    </div>
+
+  </div>
+  </div>
+
+  <!-- footer  -->
+  <footer class="bg-gray-800 text-white py-6 mt-16">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2024 Muhammad Bilal Raza. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+
+</div>
+
+</html>
